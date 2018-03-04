@@ -7,7 +7,7 @@ const Header = (props) => {
     return (
         <LinearGradient colors={['#0cb6ba', '#f7921d']} start={[0, 0]} end={[1, 0]} style={styles.viewStyle}>
                 <Text style={styles.textStyle}>{headerText}</Text>
-                <Text>We Give You Access.</Text>
+                <Text>Your Technology Wikipedia.</Text>
         </LinearGradient>
     );
 };
