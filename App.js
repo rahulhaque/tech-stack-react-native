@@ -8,8 +8,11 @@ import LibraryList from './src/modules/techLibrary/components/LibraryList';
 
 export default class App extends React.Component {
     render() {
+
+        const store = createStore(reducers);
+
         return (
-            <Provider store={createStore(reducers)}>
+            <Provider store={store}>
                 <View style={styles.container}>
                     <Header headerText="Tech Stack" />
                     <LibraryList />
